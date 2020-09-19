@@ -1,0 +1,25 @@
+:root {
+    --endless-dark-blue: #2C6A8B;
+    --endless-light-blue: #38B6FA;
+    --background-grey: #EFEFEF;
+}
+
+body {
+    background-color: #000000;
+    display: flex;
+}
+
+#container {
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--endless-dark-blue);
+}
+
+a {
+    color: var(--endless-light-blue);
+    text-decoration: none;
+}
